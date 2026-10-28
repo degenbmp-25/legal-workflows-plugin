@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192" role="img" aria-label="Legal Workflows">
+  <rect x="0" y="0" width="192" height="192" rx="42.24" fill="#1F2937"/>
+  <g stroke="#F3F4F6" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M96 42 L96 132"/>
+    <path d="M54 60 L138 60"/>
+    <path d="M54 60 L34 100 L74 100 Z" fill="#F3F4F6" stroke="none"/>
+    <path d="M138 60 L118 100 L158 100 Z" fill="#F3F4F6" stroke="none"/>
+    <path d="M66 142 L126 142"/>
+  </g>
+</svg>

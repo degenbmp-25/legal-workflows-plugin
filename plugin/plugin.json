@@ -1,0 +1,77 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "legal-workflows",
+  "version": "1.0.0",
+  "description": "Thirty-two jurisdiction-neutral legal document workflows for review, drafting, comparison, and structured extraction: NDA, MSA, DPA, credit, guarantee, lease, shareholder, employment, BPO, SPA, supply, and e-discovery reviews; redline position analysis; issues lists; CP checklists; key-term extraction; proofreading; and eleven tabular review workflows that extract agreement terms into a Markdown table.",
+  "author": {
+    "name": "HiveMind Intelligence",
+    "email": "privacy@hivemindintelligence.com",
+    "url": "https://hivemindintelligence.com"
+  },
+  "homepage": "https://hivemindintelligence.com",
+  "repository": "https://github.com/degenbmp-25/legal-workflows-plugin",
+  "license": "MIT",
+  "keywords": [
+    "legal",
+    "legal workflows",
+    "contract review",
+    "contract analysis",
+    "nda review",
+    "msa review",
+    "dpa review",
+    "redline",
+    "due diligence",
+    "tabular review",
+    "agreement extraction",
+    "drafting",
+    "document review",
+    "clause analysis",
+    "issues list"
+  ],
+  "skills": "./skills/",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Legal Workflows",
+        "shortDescription": "Legal doc review and drafting",
+        "longDescription": "A pack of 32 jurisdiction-neutral legal document workflows: structured reviews of NDAs, MSAs, DPAs, credit and guarantee agreements, commercial leases, shareholder and limited-partnership agreements, employment agreements, BPO and design-partner agreements, SPAs, supply agreements, and e-discovery sets; redline-to-position analysis; issues-list and CP-checklist drafting; key-term extraction; proofreading; and 11 tabular workflows that extract agreement terms into a Markdown table using fixed review columns. Bring your own documents by pasting the text into the chat. This is a work-product tool, not legal advice: the plugin does not practise law, does not give jurisdiction-specific legal advice, does not file anything, cannot sign or serve documents, does not track deadlines, does not retain documents, and does not replace qualified counsel. Output is a structured draft to take to a lawyer, and tabular workflows render as Markdown tables rather than spreadsheets. Jurisdiction-specific workflow packs (Finnish, Polish, German, Australian, Singapore, and United States litigation) are not included in this plugin.",
+        "developerName": "HiveMind Intelligence",
+        "category": "Productivity",
+        "capabilities": [
+          "Review agreements against a defined issue checklist",
+          "Draft agreements and closing checklists from a template",
+          "Reduce a counterparty redline to its real negotiating positions",
+          "Extract key legal and commercial terms from documents",
+          "Extract agreement terms into a tabular Markdown review",
+          "Compare two document versions clause by clause"
+        ],
+        "websiteURL": "https://hivemindintelligence.com",
+        "privacyPolicyURL": "https://hivemindintelligence.com/privacy/legal-workflows",
+        "termsOfServiceURL": "https://hivemindintelligence.com/terms/legal-workflows",
+        "supportURL": "https://hivemindintelligence.com/support",
+        "defaultPrompt": [
+          "Review this NDA and list every clause that deviates from a balanced paper.",
+          "Paste a counterparty redline below and tell me the positions it actually contains.",
+          "Extract the key terms from this credit agreement into a table."
+        ],
+        "brandColor": "#1F2937",
+        "brandColorDark": "#E5E7EB",
+        "composerIcon": "./assets/composer-icon.svg",
+        "composerIconDark": "./assets/composer-icon-dark.svg",
+        "logo": "./assets/logo.svg",
+        "logoDark": "./assets/logo-dark.svg"
+      },
+      "onboardingSkill": "./skills/setup/SKILL.md",
+      "publication": {
+        "countries": [
+          "US"
+        ],
+        "release_notes": "Initial release. 32 jurisdiction-neutral legal workflows: 21 assistant workflows for document review, drafting, comparison, redline analysis, issues lists, checklists, key-term extraction and proofreading, plus 11 tabular review workflows that extract agreement terms into a Markdown table. Upstream workflows are redistributed unmodified under the MIT license from Open-Legal-Products/mike-workflows. Not legal advice and not a substitute for counsel."
+      },
+      "review": {
+        "commerce": false,
+        "commerce_description": "This plugin does not sell products, subscriptions, or services and cannot take a payment. It provides document review, drafting, and analysis workflows free of charge. Any engagement with a qualified lawyer or the publisher is contracted and paid for separately, off-platform."
+      }
+    }
+  }
+}
