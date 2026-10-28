@@ -1,6 +1,6 @@
 ---
 name: "guarantee-agreement-review"
-description: "Review an uploaded guarantee, guaranty, or guarantee-and-indemnity agreement from the perspective of the party represented by the user."
+description: "Use when the user wants a guarantee, guaranty, or guarantee-and-indemnity agreement reviewed from the perspective of the party they represent. "
 license: "MIT"
 metadata:
   version: "1.0.0"

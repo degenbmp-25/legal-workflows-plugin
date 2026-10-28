@@ -1,6 +1,6 @@
 ---
 name: "extract-key-terms"
-description: "Extract the key legal, commercial, and operational terms from the uploaded documents."
+description: "Use when the user wants the key legal, commercial, and operational terms pulled out of one or more documents. "
 license: "MIT"
 metadata:
   version: "1.0.0"

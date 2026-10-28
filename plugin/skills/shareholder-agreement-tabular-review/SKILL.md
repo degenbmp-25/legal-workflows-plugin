@@ -1,6 +1,6 @@
 ---
 name: "shareholder-agreement-tabular-review"
-description: "Use this workflow to review uploaded documents and extract structured information into the tabular review columns defined in table-columns.yaml."
+description: "Use when the user wants a shareholders' or shareholders' agreement pulled into fixed columns: parties, share capital and classes, shareholdings, board composition, reserved matters, pre-emption on new shares and on transfers, drag-along and tag-along rights, anti-dilution, dividend policy, exit and liquidity, deadlock, restrictive covenants, warranties, governing law, and dispute resolution. Extracting these columns from table-columns.yaml."
 license: "MIT"
 metadata:
   version: "1.0.0"

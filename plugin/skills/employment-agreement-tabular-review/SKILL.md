@@ -1,6 +1,6 @@
 ---
 name: "employment-agreement-tabular-review"
-description: "Use this workflow to review uploaded documents and extract structured information into the tabular review columns defined in table-columns.yaml."
+description: "Use when the user wants an employment contract pulled into fixed columns: employer, employee, date, title, compensation, full-time or part-time status, independent-contractor classification, benefits, notice periods in both directions, overtime, working hours, variation, intellectual property assignment, grounds for termination, and annual leave entitlement. Extracting these columns from table-columns.yaml."
 license: "MIT"
 metadata:
   version: "1.0.0"

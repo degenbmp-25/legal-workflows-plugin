@@ -1,6 +1,6 @@
 ---
 name: "credit-agreement-review"
-description: "Review the uploaded credit agreement and produce a comprehensive table-based legal review from the perspective of the party represented by the user/client."
+description: "Use when the user wants a credit agreement reviewed from the perspective of the party they represent. "
 license: "MIT"
 metadata:
   version: "1.0.0"

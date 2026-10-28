@@ -22,6 +22,15 @@ rm -rf "$STAGE"
 mkdir -p "$STAGE"
 cp -r "$PLUGIN_DIR/." "$STAGE/"
 
+# Regenerate the Codex compatibility manifest from the portable manifest so the
+# two can never drift. The portable root manifest governs App Store
+# submission; the Codex manifest governs local Codex marketplace installation.
+# OpenAI does not merge the two files.
+python3 "$(dirname "$0")/build_codex_manifest.py" "$STAGE" || {
+  echo "CODEX MANIFEST GENERATION FAILED" >&2
+  exit 1
+}
+
 # ---------------------------------------------------------------- guards ----
 
 # 1. No MCP server and no app references anywhere in the package.
@@ -143,9 +152,19 @@ rm -f "$OUT"
 # SIGPIPE to unzip; under `set -o pipefail` that surfaces as exit 141 and the
 # check fails at random depending on how the two processes interleave. Reading
 # the whole listing with `grep -c` avoids the race entirely.
-ZIP_ROOT_COUNT=$(unzip -Z1 "$OUT" | grep -cE "(^|/)plugin\.json$" || true)
+ZIP_ROOT_COUNT=$(unzip -Z1 "$OUT" | grep -cE "^plugin\.json$" || true)
 if [ "$ZIP_ROOT_COUNT" -ne 1 ]; then
   echo "ZIP ROOT MUST CONTAIN EXACTLY ONE plugin.json (found $ZIP_ROOT_COUNT)" >&2
+  exit 1
+fi
+
+# 8b. The Codex compatibility manifest, if present, must live at
+# .codex-plugin/plugin.json. OpenAI does not merge the two manifests, so the
+# portable root manifest governs App Store submission and the Codex manifest
+# governs local Codex marketplace installation. Both are shipped deliberately.
+CODEX_COUNT=$(unzip -Z1 "$OUT" | grep -cE "^\.codex-plugin/plugin\.json$" || true)
+if [ "$CODEX_COUNT" -gt 1 ]; then
+  echo "DUPLICATE CODEX MANIFEST (found $CODEX_COUNT)" >&2
   exit 1
 fi
 

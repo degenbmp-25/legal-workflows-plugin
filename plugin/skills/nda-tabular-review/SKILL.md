@@ -1,6 +1,6 @@
 ---
 name: "nda-tabular-review"
-description: "Use this workflow to review uploaded documents and extract structured information into the tabular review columns defined in table-columns.yaml."
+description: "Use when the user wants a non-disclosure or confidentiality agreement pulled into fixed columns rather than reviewed clause by clause: whether the NDA is mutual or unilateral, how Confidential Information is defined, the receiving party's obligations, which standard carveouts are present, permitted disclosures, term and duration, return and destruction, remedies, and governing law. Extracting these columns from table-columns.yaml. For a clause-by-clause review from the user's perspective, use nda-review instead."
 license: "MIT"
 metadata:
   version: "1.0.0"

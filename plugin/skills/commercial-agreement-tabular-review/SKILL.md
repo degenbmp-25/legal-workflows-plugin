@@ -1,6 +1,6 @@
 ---
 name: "commercial-agreement-tabular-review"
-description: "Use this workflow to review uploaded documents and extract structured information into the tabular review columns defined in table-columns.yaml."
+description: "Use when the user wants a general commercial, services, or supply agreement pulled into fixed columns: parties, scope of work, whether it amends an earlier agreement, effective date, term, renewal, pricing, price adjustments, late-payment penalties, estimated contract value, limitation of liability, IP ownership and licensing, change of control, force majeure, termination rights, liquidated damages, governing law, and dispute resolution. Extracting these columns from table-columns.yaml."
 license: "MIT"
 metadata:
   version: "1.0.0"

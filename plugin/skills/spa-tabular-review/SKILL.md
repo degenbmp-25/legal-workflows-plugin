@@ -1,6 +1,6 @@
 ---
 name: "spa-tabular-review"
-description: "Use this workflow to review uploaded documents and extract structured information into the tabular review columns defined in table-columns.yaml."
+description: "Use when the user wants a share purchase or acquisition agreement pulled into fixed columns: parties, date, transaction, consideration, conditions precedent, completion date, warranties, indemnities, limitation of liability, covenants, exclusivity, governing law, and dispute resolution. Extracting these columns from table-columns.yaml."
 license: "MIT"
 metadata:
   version: "1.0.0"

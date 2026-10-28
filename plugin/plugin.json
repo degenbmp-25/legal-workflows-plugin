@@ -28,7 +28,6 @@
     "clause analysis",
     "issues list"
   ],
-  "skills": "./skills/",
   "extensions": {
     "com.openai": {
       "interface": {

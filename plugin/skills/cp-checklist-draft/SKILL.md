@@ -1,6 +1,6 @@
 ---
 name: "cp-checklist-draft"
-description: "Review the uploaded credit agreement or financing document and generate a comprehensive Conditions Precedent (CP) checklist."
+description: "Use when the user wants a conditions precedent (CP) checklist drafted from a credit agreement or financing document. "
 license: "MIT"
 metadata:
   version: "2.0.0"

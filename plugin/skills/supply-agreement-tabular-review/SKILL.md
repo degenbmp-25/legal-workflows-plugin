@@ -1,6 +1,6 @@
 ---
 name: "supply-agreement-tabular-review"
-description: "Use this workflow to review uploaded documents and extract structured information into the tabular review columns defined in table-columns.yaml."
+description: "Use when the user wants a supply, purchase, or product supply agreement pulled into fixed columns: parties, effective date, products, term and renewal, delivery, quality, warranties, liquidated damages, limitation of liability, force majeure, termination rights, governing law, and dispute resolution. Extracting these columns from table-columns.yaml."
 license: "MIT"
 metadata:
   version: "1.0.0"

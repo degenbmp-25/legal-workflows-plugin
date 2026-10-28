@@ -1,6 +1,6 @@
 ---
 name: "commercial-lease-tabular-review"
-description: "Use this workflow to review uploaded documents and extract structured information into the tabular review columns defined in table-columns.yaml."
+description: "Use when the user wants a commercial lease pulled into fixed columns: landlord, tenant, guarantor, premises, lease date, term, rent and rent review, service charge, insurance, permitted use, repair and maintenance, alterations, assignment and subletting, break rights, security of tenure, dilapidations, rent deposit, forfeiture and termination, and governing law. Extracting these columns from table-columns.yaml."
 license: "MIT"
 metadata:
   version: "1.0.0"

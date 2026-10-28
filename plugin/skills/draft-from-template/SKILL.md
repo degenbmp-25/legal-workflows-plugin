@@ -1,6 +1,6 @@
 ---
 name: "draft-from-template"
-description: "Edit a copy of an uploaded template using the user's instructions and source materials while preserving the original file."
+description: "Use when the user wants an uploaded template edited or populated using their instructions and source materials, with the original file preserved. "
 license: "MIT"
 metadata:
   version: "1.0.0"

@@ -1,6 +1,6 @@
 ---
 name: "corporate-approvals-review"
-description: "Review transaction documents, resolutions, authority materials, and corporate records to assess whether the relevant company approvals appear complete and internally consistent."
+description: "Use when the user wants to know whether a company's corporate approvals, resolutions, authority materials, and corporate records are complete and internally consistent. "
 license: "MIT"
 metadata:
   version: "1.0.0"

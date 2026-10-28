@@ -1,6 +1,6 @@
 ---
 name: "limited-partnership-agreement-tabular-review"
-description: "Use this workflow to review uploaded documents and extract structured information into the tabular review columns defined in table-columns.yaml."
+description: "Use when the user wants a limited partnership agreement or fund governing terms pulled into fixed columns: general partner, fund name and jurisdiction, total committed capital, capital calls and drawdowns, funding-failure penalties, investment scope and restrictions, fund term, management fee, carried interest, preferred return, GP catch-up, clawback, expenses, distributions, key person, removal of the GP, LPAC, transfer restrictions, conflicts, and governing law. Extracting these columns from table-columns.yaml."
 license: "MIT"
 metadata:
   version: "1.0.0"

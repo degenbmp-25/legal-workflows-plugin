@@ -1,6 +1,6 @@
 ---
 name: "credit-agreement-tabular-review"
-description: "Use this workflow to review uploaded documents and extract structured information into the tabular review columns defined in table-columns.yaml."
+description: "Use when the user wants a credit agreement or facility agreement pulled into fixed columns: lenders, borrowers, guarantors and other parties, facility, committed amount, purpose, interest and commitment fee, repayment schedule, maturity, security, financial covenants, events of default, assignment, change of control, prepayment fees, governing law, and dispute resolution. Extracting these columns from table-columns.yaml. For a conditions precedent checklist, use cp-checklist-draft instead."
 license: "MIT"
 metadata:
   version: "1.0.0"

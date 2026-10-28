@@ -1,6 +1,6 @@
 ---
 name: "proofread"
-description: "Review the uploaded document for drafting quality, internal consistency, and mechanical errors."
+description: "Use when the user wants a document proofread for drafting quality, internal consistency, and mechanical errors. "
 license: "MIT"
 metadata:
   version: "1.1.0"

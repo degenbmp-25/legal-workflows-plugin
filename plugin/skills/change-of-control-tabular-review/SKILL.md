@@ -1,6 +1,6 @@
 ---
 name: "change-of-control-tabular-review"
-description: "This workflow performs a change of control due diligence review across the selected documents."
+description: "Use when the user wants a change of control due diligence review pulled into fixed columns: the parties, the date, the term, the change of control clause itself, whether consent is required, termination rights, put or call options, and the financial implications. Extracting these columns from table-columns.yaml."
 license: "MIT"
 metadata:
   version: "1.0.0"

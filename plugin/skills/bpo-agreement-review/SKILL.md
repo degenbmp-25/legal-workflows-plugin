@@ -1,6 +1,6 @@
 ---
 name: "bpo-agreement-review"
-description: "Review an uploaded Business Process Outsourcing (BPO), IS outsourcing, or IT outsourcing agreement and produce a comprehensive table-based legal review from the perspective of the Customer or Supplier represented by the user."
+description: "Use when the user wants a BPO, IT outsourcing, or IS outsourcing agreement reviewed from the perspective of the Customer or Supplier they represent. "
 license: "MIT"
 metadata:
   version: "1.0.0"

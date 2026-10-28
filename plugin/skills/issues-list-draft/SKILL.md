@@ -1,6 +1,6 @@
 ---
 name: "issues-list-draft"
-description: "Review the uploaded agreement and draft a comprehensive issues list from the perspective of the party represented by the user/client."
+description: "Use when the user wants an issues list drafted from an agreement, from the perspective of the party they represent. "
 license: "MIT"
 metadata:
   version: "2.0.0"

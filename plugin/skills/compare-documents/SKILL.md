@@ -1,6 +1,6 @@
 ---
 name: "compare-documents"
-description: "Compare the uploaded documents in a structured table, highlighting key similarities, differences, risks, and follow-up points."
+description: "Use when the user has two or more versions of a document and wants them compared in a structured table of similarities, differences, risks, and follow-up points. "
 license: "MIT"
 metadata:
   version: "1.0.0"

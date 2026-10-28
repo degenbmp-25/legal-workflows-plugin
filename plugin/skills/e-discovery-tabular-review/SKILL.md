@@ -1,6 +1,6 @@
 ---
 name: "e-discovery-tabular-review"
-description: "Use this workflow to review uploaded documents and extract structured information into the tabular review columns defined in table-columns.yaml."
+description: "Use when the user wants a set of documents catalogued for e-discovery or a document schedule pulled into fixed columns: date, document type, sender, recipients, a short summary, the persons mentioned, and whether the document is marked privileged. Extracting these columns from table-columns.yaml."
 license: "MIT"
 metadata:
   version: "1.0.0"
